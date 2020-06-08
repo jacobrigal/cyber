@@ -4,7 +4,10 @@ body {
     padding: 0px; 
     font-family: 'Open Sans', sans-serif; 
     background-image: url("https://singularityhub.com/wp-content/uploads/2018/12/abstract-tech-background-3D-quantum_shutterstock_1093265825-1068x601.jpg"); 
-    text-shadow: red 0px 0px 10px;
+    text-shadow: 0.07em 0 black,
+        0 0.07em black,
+        -0.07em 0 black,
+        0 -0.07em black;
   }
   
   feature {
