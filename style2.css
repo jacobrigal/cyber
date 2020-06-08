@@ -3,7 +3,7 @@ body {
     margin: 0px; 
     padding: 0px; 
     font-family: 'Open Sans', sans-serif; 
-    background-image: url("https://www.insurancejournal.com/app/uploads/2014/09/cyber.jpg");  
+    background-image: url("https://singularityhub.com/wp-content/uploads/2018/12/abstract-tech-background-3D-quantum_shutterstock_1093265825-1068x601.jpg"); 
   }
   
   feature {
@@ -15,7 +15,7 @@ body {
     right: 15px;
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
-    color: #555;
+    color: #999;
   }
   
   .author a {
@@ -27,8 +27,8 @@ body {
     color: blue;
   }
   
-  header.dark nav { background-color:rgba(255,255,255,0.5); }
-  header.light nav { background-color:rgba(0,0,0,0.5); }
+  header.dark blockquote { color:#fff; }
+  header.light blockquote { color:#000; }
   
   blockquote { 
     max-width: 1000px; 
@@ -36,19 +36,18 @@ body {
     font-size: 16px; 
     border-left: 0px;
     padding:  20px ;
-    background-image: url("https://www.insurancejournal.com/app/uploads/2014/09/cyber.jpg");
   }
   
   blockquote h2 { padding-right: 40px; margin: 0px; }
   header.dark blockquote a {color: orange; text-decoration: underline;}
   header.light blockquote a {text-decoration: underline;}
   header { min-height: 450px; }
-  header.dark { background-color: #444; }
+  header.dark {background-image: url("https://singularityhub.com/wp-content/uploads/2018/12/abstract-tech-background-3D-quantum_shutterstock_1093265825-1068x601.jpg")}
   header.light { background-color: #fff; }
   
   /* Navigation Styles */
   nav { position: relative;  }
-  header.dark nav { background-color:rgba(255,255,50,0.5); }
+  header.dark nav { background-color:rgba(255,255,255,0.5); }
   header.light nav { background-color:rgba(0,0,0,0.5); }
   
   ul.main-nav { 
@@ -371,3 +370,4 @@ body {
     text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
   }
 }
+
