@@ -10,9 +10,6 @@ body {
         0 -0.07em black;
   }
   
-  feature {
-    position: fixed;
-  }
   .author {
     position: fixed;
     bottom: 15px;
@@ -32,7 +29,6 @@ body {
   }
   
   header.dark blockquote { color:#fff; }
-  header.light blockquote { color: #06CC92;}
   
   blockquote { 
     max-width: 1000px; 
@@ -51,7 +47,7 @@ body {
   
   /* Navigation Styles */
   nav { position: relative;
-  font:  black; }
+  color:  black; }
   header.dark nav { background-color:  #C24217; 
   opacity: 0.90}
   header.light nav { background-color: #06CC92;
@@ -82,8 +78,8 @@ body {
   }
   
   ul.main-nav > li:hover { background-color: #5CB504;
-  opacity: 0.95; font: black;}
-  ul.main-nav > li:hover > a {font:black; color: #5CB504; font-weight: 400; }
+  opacity: 0.95; color: black;}
+  ul.main-nav > li:hover > a { color: #5CB504; font-weight: 400; }
   
   ul.main-nav > li ul.sub-menu-lists {
     margin: 0px;
