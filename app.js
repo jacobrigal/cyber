@@ -51,6 +51,44 @@ function myFunction() {
     return i;
   }
 
+<<<<<<< HEAD
+  function myName1() {
+    var person = prompt("Please enter your name", "future ethical hacker");
+    if (person != null) {
+      document.getElementById("name").innerHTML =
+      "Hello " + person + "! How are you today?";
+    }
+  }
+ 
+  function myFont() {
+    var x, i;
+    x = document.querySelectorAll("#leet, #leet3, #leet4, #leet5, #leet6, #leet7");
+    for (i = 0; i < x.length; i++) {
+      x[i].style.fontSize = "35px";
+    }
+  }
+ 
+  var txt = "Warning: This information about your system is available to every website you visit. It can be used to fingerprint your OS, browser, etc., and can possibly be used to exploit your system. Please make sure you have updated everything to the latest version!! *Note: the follwing info may not be entirely accurate:";
+txt += "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
+txt += "<p>Browser Name: " + navigator.appName + "</p>";
+txt += "<p>Browser Version: " + navigator.appVersion + "</p>";
+txt += "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>";
+txt += "<p>Browser Language: " + navigator.language + "</p>";
+txt += "<p>Browser Online: " + navigator.onLine + "</p>";
+txt += "<p>Platform: " + navigator.platform + "</p>";
+txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
+
+document.getElementById("agent").innerHTML = txt;
+
+function hideOsInfo() {
+  var x = document.getElementById("agent");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+=======
   function yourName() {
     var txt;
     var person = prompt("Please enter your name:", "(Name)");
@@ -63,3 +101,4 @@ function myFunction() {
   }
 
   
+>>>>>>> 313080ee7ae143559d4f969615847dcdc1c00285
