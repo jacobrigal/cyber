@@ -51,7 +51,6 @@ function myFunction() {
     return i;
   }
 
-<<<<<<< HEAD
   function myName1() {
     var person = prompt("Please enter your name", "future ethical hacker");
     if (person != null) {
@@ -88,7 +87,6 @@ function hideOsInfo() {
     x.style.display = "none";
   }
 }
-=======
   function yourName() {
     var txt;
     var person = prompt("Please enter your name:", "(Name)");
@@ -101,4 +99,4 @@ function hideOsInfo() {
   }
 
   
->>>>>>> 313080ee7ae143559d4f969615847dcdc1c00285
+
