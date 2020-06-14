@@ -26,6 +26,8 @@ function myFunction() {
   function myFunction7() {
     document.getElementById("leet7").innerHTML = "7h3r3 15 4 l07 70 l34rn, y35, bu7 und3r574nd1n6 cyb3r53cur17y w1ll 61v3 y0u 4 c0mpr3h3n51v3 und3r574nd1n6 0f m4ny d1ff3r3n7 45p3c75 0f 17 45 w3ll 45 hum4n p5ych0l06y 4nd cr1m1n0l06y.";
   }
+ 
+
 //Pop-up Confirm Box, which is actually a cybersecurity teaching tool
   function myConfirm() {
     var txt;
