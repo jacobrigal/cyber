@@ -61,7 +61,7 @@ function myConfirm() {
   /* This function allows you to customize the page based on your name entered into a prompt. If the field is empty, will send an alert and new prompt to enter name. If empty a second time, new alert that redirects to Cisco cybersecurity page on clicking 'OK'. */ 
   
   function myName1() {
-    var person2 = prompt("Please enter your name", "future ethical hacker");
+    var person2 = prompt("Please enter your name", "a future ethical hacker");
     var you2;
     if (person2 == null || person2 == "") {
       alert("Name must be filled out");
@@ -80,7 +80,7 @@ function myConfirm() {
   
   function myFont() {
     var x, i;
-    x = document.querySelectorAll("#leet, #leet3, #leet4, #leet5, #leet6, #leet7");
+    x = document.querySelectorAll("#agent, #leet, #leet3, #leet4, #leet5, #leet6, #leet7");
     for (i = 0; i < x.length; i++) {
       x[i].style.fontSize = "35px";
     }
