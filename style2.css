@@ -379,6 +379,22 @@ body {
 a {
   text-decoration: none;
   color: #0633C2; 
-  text-shadow: none !important
+  text-shadow: none !important; 
 }
 
+#agent {
+background-color: red;
+text-shadow: none !important; 
+}
+
+form {
+  color: white;
+  text-shadow: 0.07em 0 black,
+  0 0.07em black,
+  -0.07em 0 black,
+  0 -0.07em black;
+}
+
+#btnright {
+  float: right;
+}
