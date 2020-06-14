@@ -1,4 +1,4 @@
-// Leet tranlator functions
+/* Leet translator functions */
 
 function myFunction() {
     document.getElementById("leet").innerHTML = "45 73chn0l06y c0n71nu35 70 d3v3l0p, 7h3 n33d 70 574y 0n 70p 0f 3v3r ch4n61n6 cyb3r53cur17y n33d5 w1ll 3n5ur3 7h3 r3l3v4nc3 1n 7h3 f13ld.";
@@ -28,8 +28,9 @@ function myFunction() {
   }
  
 
-//Pop-up Confirm Box, which is actually a cybersecurity teaching tool
-  function myConfirm() {
+/*Pop-up Confirm Box, triggered by 'Security Test' button, which is actually a tricky cybersecurity teaching tool that leads you to a page that gives you a tip why you should be careful with links */
+ 
+function myConfirm() {
     var txt;
     if (confirm("This is a cybersecurity notification. Should you accept it? Or should you cancel?")) {
         window.location.href = 'http://jacobrigal.github.io/cyber/safe.html';
@@ -39,7 +40,8 @@ function myFunction() {
     document.getElementById("confirm").innerHTML = txt;
   }
 
- // Show time 
+ /* Shows time  */
+
   function startTime() {
     var today = new Date();
     var h = today.getHours();
@@ -56,17 +58,26 @@ function myFunction() {
     return i;
   }
 
+  /* This function allows you to customize the page based on your name entered into a prompt. If the field is empty, will send an alert and new prompt to enter name. If empty a second time, new alert that redirects to Cisco cybersecurity page on clicking 'OK'. */ 
   
-  // This function allows you to customize the page based on your name entered into a prompt
   function myName1() {
-    var person = prompt("Please enter your name", "future ethical hacker");
-    if (person != null) {
-      document.getElementById("name").innerHTML =
-      "Hello " + person + "! How are you today?";
+    var person2 = prompt("Please enter your name", "future ethical hacker");
+    var you2;
+    if (person2 == null || person2 == "") {
+      alert("Name must be filled out");
+      prompt("Please enter your name:", "");
     }
-  }
- 
-  //Makes the font bigger in the main sections on the home page
+      if (person2 == null || person2 == "") {
+        alert("You really don't want to cooperate! Have fun on another site!");
+        window.location.href = 'https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html';
+    }
+     else {
+        you2 = " for " + person2;
+      }
+      document.getElementById("name").innerHTML = you2;
+}
+  /*Makes the font bigger in the main sections on the home page */
+  
   function myFont() {
     var x, i;
     x = document.querySelectorAll("#leet, #leet3, #leet4, #leet5, #leet6, #leet7");
@@ -75,21 +86,20 @@ function myFunction() {
     }
   }
  
-  // Displays some detected info
+  /* Displays some detected info from end user. */
+  
+    var txt = "Warning: This information about your system is available to every website you visit. It can be used to fingerprint your OS, browser, etc., and can possibly be used to exploit your system. Please make sure you have updated everything to the latest version!! *Note: the follwing info may not be entirely accurate:";
+    txt += "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
+    txt += "<p>Browser Name: " + navigator.appName + "</p>";
+    txt += "<p>Browser Version: " + navigator.appVersion + "</p>";
+    txt += "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>";
+    txt += "<p>Browser Language: " + navigator.language + "</p>";
+    txt += "<p>Browser Online: " + navigator.onLine + "</p>";
+    txt += "<p>Platform: " + navigator.platform + "</p>";
+    txt += "<p>User-agent header: " + navigator.userAgent + "</p>"; 
+    document.getElementById("agent").innerHTML = txt;
 
-  var txt = "Warning: This information about your system is available to every website you visit. It can be used to fingerprint your OS, browser, etc., and can possibly be used to exploit your system. Please make sure you have updated everything to the latest version!! *Note: the follwing info may not be entirely accurate:";
-txt += "<p>Browser CodeName: " + navigator.appCodeName + "</p>";
-txt += "<p>Browser Name: " + navigator.appName + "</p>";
-txt += "<p>Browser Version: " + navigator.appVersion + "</p>";
-txt += "<p>Cookies Enabled: " + navigator.cookieEnabled + "</p>";
-txt += "<p>Browser Language: " + navigator.language + "</p>";
-txt += "<p>Browser Online: " + navigator.onLine + "</p>";
-txt += "<p>Platform: " + navigator.platform + "</p>";
-txt += "<p>User-agent header: " + navigator.userAgent + "</p>";
-
-document.getElementById("agent").innerHTML = txt;
-
-// Code for button that hides detected info
+/*Code for button that hides detected info */
 function hideOsInfo() {
   var x = document.getElementById("agent");
   if (x.style.display === "none") {
@@ -98,15 +108,8 @@ function hideOsInfo() {
     x.style.display = "none";
   }
 }
-  function yourName() {
-    var txt;
-    var person = prompt("Please enter your name:", "(Name)");
-    if (person == null || person == "") {
-      txt = " with no-name";
-    } else {
-      txt = " for " + person;
-    }
-    document.getElementById("name").innerHTML = txt;
-  }
+/*This function loads a name box prompt when the site loads, provides validation. If the field is empty, will send an alert and new prompt to enter name. If empty a second time, new alert that redirects to Cisco cybersecurity page on clicking 'OK'. */ 
 
-  
+
+ 
+
