@@ -1,158 +1,165 @@
 <!DOCTYPE html>
- <html> 
-    <head>
-        <title>Cybersecurity</title>
-        <link rel="stylesheet" href="style2.css">
-    </head>
-      <body onload="startTime(); function onloadInfo()">
-        <div class="bg"></div>
-        <nav>
-            <header class="dark">
-                <nav role="navigation">
-                  <a href="javascript:void(0);" class="ic menu" tabindex="1">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                  </a>
-                  <a href="javascript:void(0);" class="ic close"></a>
-                  <ul class="main-nav">
-                    <li class="top-level-link">
-                      <a><span>Home</span></a>      
-                    </li> 
-                    <li class="top-level-link">
-                      <a class="mega-menu" font= black;><span>Overview</span></a>
-                      <div class="sub-menu-block">
-                        <div class="row">
-                          <div class="col-md-4 col-lg-4 col-sm-4">
-                            <h2 class="sub-menu-head">Anti-virus</h2>
-                            <ul class="sub-menu-lists">
-                              <li><a>Windows</a></li>
-                              <li><a>Mac</a></li>
-                              <li><a>Linux</a></li>
-                            </ul>           
-                          </div>
-                          <div class="col-md-4 col-lg-4 col-sm-4">
-                            <h2 class="sub-menu-head">Passwords</h2>
-                            <ul class="sub-menu-lists">
-                              <li><a>Complexity</a></li>
-                              <li><a>Password managers</a></li>
-                            </ul>
-                          </div>
-                          <div class="col-md-4 col-lg-4 col-sm-4">
-                            <h2 class="sub-menu-head">Encryption</h2>
-                            <ul class="sub-menu-lists">
-                              <li><a>Principles</a></li>
-                              <li><a>Windows tools</a></li>
-                              <li><a>Mac OSX tools</a></li>
-                              <li><a>Linux tools</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                        
-                        <div class="row banners-area">
-                          <div class="col-md-6 col-lg-6 col-sm-6">
-                          </div>
-                          <div class="col-md-6 col-lg-6 col-sm-6">
-                          </div>
-                        </div>
-                        
-                      </div>
-                    </li>
-                    <li class="top-level-link">
-                      <a><span>Services</span></a>    
-                    </li>
-                    <li class="top-level-link">
-                      <a class="mega-menu"><span>About</span></a>
-                      <div class="sub-menu-block">
-                        <div class="row">
-                          <div class="col-md-4 col-lg-4 col-sm-4">
-                            <h2 class="sub-menu-head">Company</h2>
-                            <ul class="sub-menu-lists">
-                              <li><a>About</a></li>
-                              <li><a>Mission</a></li>
-                              <li><a>Community</a></li>
-                              <li><a>Team</a></li>
-                            </ul>           
-                          </div>
-                          <div class="col-md-4 col-lg-4 col-sm-4">
-                            <h2 class="sub-menu-head">Media</h2>
-                            <ul class="sub-menu-lists">
-                              <li><a>News</a></li>
-                              <li><a>Events</a></li>
-                              <li><a>Blog</a></li>
-                            </ul>
-                          </div>
-                          <div class="col-md-4 col-lg-4 col-sm-4">
-                            <h2 class="sub-menu-head">Careers in Cyber</h2>
-                            <ul class="sub-menu-lists">
-                              <li><a>SOC Officer</a></li>
-                              <li><a>Penetration Tester</a></li>
-                              <li><a>Network Security Architect</a></li>
-                            </ul>
-                          </div>
-                        </div>
-                        
-                        <div class="row banners-area">
-                          <div class="col-md-6 col-lg-6 col-sm-6">
-                          </div>
-                          <div class="col-md-6 col-lg-6 col-sm-6">
-                        </div>
-                        </div>
-                      </div>
-                    </li>
-                    <li class="top-level-link">
-                      <a><span>Contact</span></a>      
-                    </li>
-                  </ul> 
-                   </nav>
-                  <blockquote>
-                    <button id="btnright" onclick="hideOsInfo()">Hide</button>
-                    <p id="agent"></p>
-                    <button onclick="myName1()">Customize the page</button>
-                    <button type="button" onclick="myFunction(); myFunction2(); myFunction3(); myFunction4(); myFunction5(); myFunction6(); myFunction6(); myFunction7()">Leet Translator</button>
-                    <button type="button" onclick="myConfirm()">Security Test</button>
-                    <button onclick="myFont()">Make font bigger</button>
-                    <br>
-                    <form>
-                      <br>
-                      Choose which browser you are using:
-                        <select id="browsers" onchange="preferedBrowser()">
-                          <option value="Chrome">Chrome</option>
-                          <option value="Internet Explorer">Internet Explorer</option>
-                          <option value="Firefox">Firefox</option>
-                          <option value="Edge">Edge</option>
-                          <option value="Safari">Safari</option>
-                        </select>
-                      </form>
-                   <br>
-                   <h1 class="glow" id="leet2">Cybersecurity</h1><h1 class ="glow" id="name"></h1></div>
-                    <br>
-                    <br>
-                    <h2 id="leet3">Relevant</h2> 
-                    <br>
-                    <b id="leet">As technology continues to develop, the need to stay on top of ever changing cybersecurity needs will ensure the relevance in the field. </b>
-                    <br>
-                    <br>
-                    <img src="feature1.jpg" alt="Lock with circuits">
-                    <br>
-                    <br>
-                    <h2 id="leet4">In Demand</h2>
-                    <br><br>
-                    <b id="leet5">Demand for experts in the field is projected to increase significantly over the next ten years.</b>
-                    <br><br>
-                      <img src="feature2.jpg" alt="Secruity Operations Officer on the job">
-                      <br>
-                    <h2 id="leet6">Interesting</h2><br><br>
-                    <b id="leet7">There is a lot to learn, yes, but understanding cybersecurity will give you a comprehensive understanding of many different aspects of IT as well as human psychology and criminology. </b><br>
-                    <br><br>
-                    <img src="feature3.jpg" width="500" alt="digital fingerprint">
-                  </blockquote>
-              </header>     
-              <div class="author">
-                <br><br>
-                Created by: <a href="https://www.github.com/jacobrigal" target="_blank">Jacob Rigal</a>
+<html>
+
+<head>
+  <title>Cybersecurity</title>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css">
+</head>
+
+<body onload="startTime(); function onloadInfo()">
+  <header class="dark">
+    <nav role="navigation">
+      <a href="javascript:void(0);" class="ic menu" tabindex="1">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </a>
+      <a href="javascript:void(0);" class="ic close"></a>
+      <ul class="main-nav">
+        <li class="top-level-link">
+          <a><span>Home</span></a>
+        </li>
+        <li class="top-level-link">
+          <a class="mega-menu" font=black;><span>Overview</span></a>
+          <div class="sub-menu-block">
+            <div class="row">
+              <div class="col-md-4 col-lg-4 col-sm-4">
+                <h2 class="sub-menu-head">Anti-virus</h2>
+                <ul class="sub-menu-lists">
+                  <li><a>Windows</a></li>
+                  <li><a>Mac</a></li>
+                  <li><a>Linux</a></li>
+                </ul>
               </div>
-        <script src="app.js" async defer></script>
-          
-    </body>
+              <div class="col-md-4 col-lg-4 col-sm-4">
+                <h2 class="sub-menu-head">Passwords</h2>
+                <ul class="sub-menu-lists">
+                  <li><a>Complexity</a></li>
+                  <li><a>Password managers</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 col-lg-4 col-sm-4">
+                <h2 class="sub-menu-head">Encryption</h2>
+                <ul class="sub-menu-lists">
+                  <li><a>Principles</a></li>
+                  <li><a>Windows tools</a></li>
+                  <li><a>Mac OSX tools</a></li>
+                  <li><a>Linux tools</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row banners-area">
+              <div class="col-md-6 col-lg-6 col-sm-6">
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-6">
+              </div>
+            </div>
+
+          </div>
+        </li>
+        <li class="top-level-link">
+          <a><span>Services</span></a>
+        </li>
+        <li class="top-level-link">
+          <a class="mega-menu"><span>About</span></a>
+          <div class="sub-menu-block">
+            <div class="row">
+              <div class="col-md-4 col-lg-4 col-sm-4">
+                <h2 class="sub-menu-head">Company</h2>
+                <ul class="sub-menu-lists">
+                  <li><a>About</a></li>
+                  <li><a>Mission</a></li>
+                  <li><a>Community</a></li>
+                  <li><a>Team</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 col-lg-4 col-sm-4">
+                <h2 class="sub-menu-head">Media</h2>
+                <ul class="sub-menu-lists">
+                  <li><a>News</a></li>
+                  <li><a>Events</a></li>
+                  <li><a>Blog</a></li>
+                </ul>
+              </div>
+              <div class="col-md-4 col-lg-4 col-sm-4">
+                <h2 class="sub-menu-head">Careers in Cyber</h2>
+                <ul class="sub-menu-lists">
+                  <li><a>SOC Officer</a></li>
+                  <li><a>Penetration Tester</a></li>
+                  <li><a>Network Security Architect</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="row banners-area">
+              <div class="col-md-6 col-lg-6 col-sm-6">
+              </div>
+              <div class="col-md-6 col-lg-6 col-sm-6">
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="top-level-link">
+          <a><span>Contact</span></a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <button id="btnright" onclick="hideOsInfo()">Hide</button>
+      <p id="agent"></p>
+      <button onclick="myName1()">Customize the page</button>
+      <button type="button"
+        onclick="myFunction(); myFunction2(); myFunction3(); myFunction4(); myFunction5(); myFunction6(); myFunction7()">Leet
+        Translator</button>
+      <button type="button" onclick="myConfirm()">Security Test</button>
+      <button onclick="myFont()">Make font bigger</button>
+      <br>
+      <form>
+        <br>
+        Choose which browser you are using:
+        <select id="browsers" onchange="preferedBrowser()">
+          <option value="Chrome">Chrome</option>
+          <option value="Internet Explorer">Internet Explorer</option>
+          <option value="Firefox">Firefox</option>
+          <option value="Edge">Edge</option>
+          <option value="Safari">Safari</option>
+        </select>
+      </form>
+      <br>
+      <h1 class="glow" id="leet2">Cybersecurity</h1>
+      <h1 class="glow" id="name"></h1>
+      </div>
+      <br>
+      <h2 id="leet3">Relevant</h2>
+      <br>
+      <b id="leet">As technology continues to develop, the need to stay on top of ever changing cybersecurity needs will
+        ensure the relevance in the field. </b>
+      <br>
+      <br>
+      <img src="feature1.jpg" alt="Lock with circuits">
+      <br>
+      <br>
+      <h2 id="leet4">In Demand</h2>
+      <br><br>
+      <b id="leet5">Demand for experts in the field is projected to increase significantly over the next ten years.</b>
+      <br><br>
+      <img src="feature2.jpg" alt="Secruity Operations Officer on the job">
+      <br>
+      <h2 id="leet6">Interesting</h2><br><br>
+      <b id="leet7">There is a lot to learn, yes, but understanding cybersecurity will give you a comprehensive
+        understanding of many different aspects of IT as well as human psychology and criminology. </b><br>
+      <br><br>
+      <img src="feature3.jpg" width="500" alt="digital fingerprint">
+    </main>
+  </header>
+  <div class="author">
+    <br><br>
+    Created by: <a href="https://www.github.com/jacobrigal" target="_blank">Jacob Rigal</a>
+  </div>
+  <script src="app.js" async defer></script>
+
+</body>
+
 </html>

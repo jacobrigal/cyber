@@ -28,7 +28,6 @@ body {
   }
   
   header.dark blockquote { color:#fff; }
-  header.light blockquote { color:#000; }
   
   blockquote { 
     max-width: 1000px; 
@@ -40,15 +39,13 @@ body {
   
   blockquote h2 { padding-right: 40px; margin: 0px; }
   header.dark blockquote a {color: orange; text-decoration: underline;}
-  header.light blockquote a {text-decoration: underline;}
   header { min-height: 450px; }
   header.dark { background-color: #444; }
-  header.light { background-color: #fff; }
   
   /* Navigation Styles */
   nav { position: relative;  }
   header.dark nav { background-color:rgba(255,255,255,0.5); }
-  header.light nav { background-color:rgba(0,0,0,0.5); }
+
   
   ul.main-nav { 
     list-style-type: none; 
@@ -133,7 +130,6 @@ body {
     .sub-menu-head { color:orange; }
     .ic.menu { display: block; }
     header.dark .ic.menu .line { background-color: #fff; } 
-    header.light .ic.menu .line { background-color: #000; }
     .ic.menu .line {
       -webkit-transition: all 0.4s ease 0s;
       -o-transition: all 0.4s ease 0s;
@@ -314,8 +310,6 @@ body {
     
     /* List Separator: Outer Border */
     header.dark ul.main-nav > li > a { border-right: 1px solid #bbb; }
-    header.light ul.main-nav > li > a { border-right: 1px solid #666; }
-    
     /* List Separator: Inner Border */
     ul.main-nav > li > a:after {
       content: '';
@@ -327,7 +321,6 @@ body {
       z-index : 2;
     }
     header.dark ul.main-nav > li > a:after { background-color: #777; }
-    header.light ul.main-nav > li > a:after { background-color: #999; }
     
     /* Drop Down/Up Arrow for Mega Menu */
     ul.main-nav > li > a.mega-menu > span { display: block; vertical-align: middle; }

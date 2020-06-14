@@ -31,13 +31,11 @@ function myFunction() {
 /*Pop-up Confirm Box, triggered by 'Security Test' button, which is actually a tricky cybersecurity teaching tool that leads you to a page that gives you a tip why you should be careful with links */
  
 function myConfirm() {
-    var txt;
     if (confirm("This is a cybersecurity notification. Should you accept it? Or should you cancel?")) {
         window.location.href = 'http://jacobrigal.github.io/cyber/safe.html';
     } else {
         window.location.href = 'http://jacobrigal.github.io/cyber/safe.html';
     }
-    document.getElementById("confirm").innerHTML = txt;
   }
 
  /* Shows time  */
