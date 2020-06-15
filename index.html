@@ -1,13 +1,11 @@
 <!DOCTYPE html>
 <html>
-
 <head>
   <title>Cybersecurity</title>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style2.css">
 </head>
-
-<body>
+<body onload="startTime()">
   <header class="dark">
     <nav role="navigation">
       <a href="javascript:void(0);" class="ic menu" tabindex="1">
@@ -21,7 +19,7 @@
           <a><span>Home</span></a>
         </li>
         <li class="top-level-link">
-          <a class="mega-menu"><span>Overview</span></a>
+          <a class="mega-menu" font=black;><span>Overview</span></a>
           <div class="sub-menu-block">
             <div class="row">
               <div class="col-md-4 col-lg-4 col-sm-4">
@@ -49,14 +47,12 @@
                 </ul>
               </div>
             </div>
-
             <div class="row banners-area">
               <div class="col-md-6 col-lg-6 col-sm-6">
               </div>
               <div class="col-md-6 col-lg-6 col-sm-6">
               </div>
             </div>
-
           </div>
         </li>
         <li class="top-level-link">
@@ -106,38 +102,49 @@
         </li>
       </ul>
     </nav>
+    <main>
+      <button id="btnright" onclick="hideOsInfo()">Hide</button>
+      <p id="agent"></p>
+      <p id="browse"></div>
+      <button onclick="myName1()">Customize the page</button>
+      <button type="button"
+        onclick="myFunction(); myFunction2(); myFunction3(); myFunction4(); myFunction5(); myFunction6(); myFunction7()">Leet
+        Translator</button>
+      <button type="button" onclick="myConfirm()">Security Test</button>
+      <button onclick="myFont()">Make font bigger</button>
+      <br>
+      <br>
+      <h1 class="glow" id="leet2">Cybersecurity</h1>
+      <h1 class="glow" id="name"></h1>
+      <h1 class="glow" id="txt"></h2>
+      </div>
+      <br>
+      <h2 id="leet3">Relevant</h2>
+      <br>
+      <b id="leet">As technology continues to develop, the need to stay on top of ever changing cybersecurity needs will
+        ensure the relevance in the field. </b>
+      <br>
+      <br>
+      <img src="feature1.jpg" alt="Lock with circuits">
+      <br>
+      <br>
+      <h2 id="leet4">In Demand</h2>
+      <br><br>
+      <b id="leet5">Demand for experts in the field is projected to increase significantly over the next ten years.</b>
+      <br><br>
+      <img src="feature2.jpg" alt="Secruity Operations Officer on the job">
+      <br>
+      <h2 id="leet6">Interesting</h2><br><br>
+      <b id="leet7">There is a lot to learn, yes, but understanding cybersecurity will give you a comprehensive
+        understanding of many different aspects of IT as well as human psychology and criminology. </b><br>
+      <br><br>
+      <img src="feature3.jpg" width="500" alt="digital fingerprint">
+    </main>
   </header>
-  <main>
-    <h1 class="glow">Cybersecurity</h1>
-    <br>
-    <h2>Relevant</h2> <br>
-    <br>
-    As technology continues to develop, the need to stay on top of ever changing cybersecurity needs will ensure the
-    relevance on the field.
-    <br>
-    <br>
-    <img src="feature1.jpg" alt="Lock with circuits">
-    <br>
-    <br>
-    <h2>In Demand</h2>
-    <br><br>
-    Demand for experts in the field is projected to increase significantly over the next ten years.
-    <br><br>
-    <img src="feature2.jpg" alt="Secruity Operations Officer on the job">
-    <br><br>
-    <h2>Interesting</h2><br><br>
-    There is a lot to learn, yes, but understanding cybersecurity will give you a comprehensive understanding of many
-    different aspects of IT as well as human psychology and criminology.
-    <br><br>
-    <img src="feature3.jpg" width="500" alt="digital fingerprint">
-  </main>
-
-  <footer class="author">
+  <div class="author">
     <br><br>
     Created by: <a href="https://www.github.com/jacobrigal" target="_blank">Jacob Rigal</a>
-  </footer>
-  <script src="js/app.js" async defer></script>
-
+  </div>
+  <script src="app.js" async defer></script>
 </body>
-
 </html>
