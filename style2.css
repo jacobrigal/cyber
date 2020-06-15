@@ -394,3 +394,21 @@ form {
 #btnright {
   float: right;
 }
+
+#browse {
+
+  margin: 0px; 
+  padding: 0px; 
+  font-family: 'Open Sans', sans-serif; 
+  height: 100%;
+   margin: 0;
+  text-shadow: 0.07em 0 black,
+  0 0.07em black,
+ -0.07em 0 black,
+  0 -0.07em black;
+}
+
+#txt {
+color: white;
+
+}
