@@ -63,7 +63,7 @@ function myConfirm() {
     var you2;
     if (person2 == null || person2 == "") {
       alert("Name must be filled out");
-      prompt("Please enter your name:", "");
+      person2 = prompt("Please enter your name:", "");
     }
       if (person2 == null || person2 == "") {
         alert("You really don't want to cooperate! Have fun on another site!");
