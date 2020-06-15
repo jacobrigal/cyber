@@ -47,8 +47,7 @@ function myConfirm() {
     var s = today.getSeconds();
     m = checkTime(m);
     s = checkTime(s);
-    document.getElementById('txt').innerHTML =
-    h + ":" + m + ":" + s;
+    document.getElementById('txt').innerHTML = h + ":" + m + ":" + s;
     var t = setTimeout(startTime, 500);
   }
   function checkTime(i) {
@@ -60,20 +59,20 @@ function myConfirm() {
   
   function myName1() {
     var person2 = prompt("Please enter your name", "a future ethical hacker");
-    var you2;
     if (person2 == null || person2 == "") {
       alert("Name must be filled out");
       person2 = prompt("Please enter your name:", "");
     }
-      if (person2 == null || person2 == "") {
-        alert("You really don't want to cooperate! Have fun on another site!");
-        window.location.href = 'https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html';
+    if (person2 == null || person2 == "") {
+      alert("You really don't want to cooperate! Have fun on another site!");
+      window.location.href = 'https://www.cisco.com/c/en/us/products/security/what-is-cybersecurity.html';
+  }
+   else {
+      you2 = " for " + person2;
     }
-     else {
-        you2 = " for " + person2;
-      }
-      document.getElementById("name").innerHTML = you2;
-}
+    document.getElementById("name").innerHTML = you2;
+  }
+
   /*Makes the font bigger in the main sections on the home page */
   
   function myFont() {
@@ -96,6 +95,23 @@ function myConfirm() {
     txt += "<p>Platform: " + navigator.platform + "</p>";
     txt += "<p>User-agent header: " + navigator.userAgent + "</p>"; 
     document.getElementById("agent").innerHTML = txt;
+    browserversion = navigator.appVersion;
+    platform = navigator.platform;
+  
+/* Takes the header info from the previous function and searches the string for the most recent version of Chrome, and for the Win32 OS platform. */
+var n = browserversion.includes('Chrome/83.0.4103.97');
+notify = ('Your version of Chrome is detecting as being up to date');
+linktext = ("Click here for a rundown on Chrome's past issues");
+link2 = linktext.link("https://www.zdnet.com/article/google-patches-chrome-zero-day-under-active-attacks/");
+notupdated = ('Your version of Chrome is detecting as being an older release. This may be because you are using a different browser altogether. Please see the following links to learn about vulnerabilities in earlier versions of Chrome: ' + link2);
+
+if (n == true) {
+  document.getElementById("browse").innerHTML = notify;
+}
+else {
+  document.getElementById("browse").innerHTML = notupdated;
+}
+console.log(notify);
 
 /*Code for button that hides detected info */
 function hideOsInfo() {
@@ -106,8 +122,3 @@ function hideOsInfo() {
     x.style.display = "none";
   }
 }
-/*This function loads a name box prompt when the site loads, provides validation. If the field is empty, will send an alert and new prompt to enter name. If empty a second time, new alert that redirects to Cisco cybersecurity page on clicking 'OK'. */ 
-
-
- 
-
